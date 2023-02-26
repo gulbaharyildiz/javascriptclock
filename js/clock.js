@@ -40,7 +40,7 @@ function time() {
             break
     }
 
-    clock.innerHTML = `${("0" + h).substr(-2) + ":" + ("0" + m).substr(-2) + ":" + ("0" + s).substr(-2) + " " + day}`
+    clock.innerHTML = `${("0" + h)+ ":" + (m) + ":" + (s)+ " " + day}`
 }
 
 setInterval(time, 1000);
